@@ -10,6 +10,7 @@
         "kohana/modules/orm": "3.3",
         "kohana/modules/cache": "3.3",
         "kohana/modules/unittest": "3.3",
+        "kohana/modules/image": "3.3",
         "kohana/modules/minion": "3.3",
         "kohana/modules/minion-log": "3.3",
         "kohana/modules/pagination": "3.3",
@@ -27,7 +28,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/core.git",
-                    "reference": "3.3/master"
+                    "reference": "3.3/develop"
                 }
             }
         },
@@ -39,7 +40,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/userguide.git",
-                    "reference": "3.3/master"
+                    "reference": "3.3/develop"
                 }
             }
         },
@@ -51,7 +52,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/auth.git",
-                    "reference": "3.3/master"
+                    "reference": "3.3/develop"
                 }
             }
         },
@@ -63,7 +64,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/database.git",
-                    "reference": "3.3/master"
+                    "reference": "3.3/develop"
                 }
             }
         },
@@ -75,7 +76,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/orm.git",
-                    "reference": "3.3/master"
+                    "reference": "3.3/develop"
                 }
             }
         },
@@ -87,7 +88,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/cache.git",
-                    "reference": "3.3/master"
+                    "reference": "3.3/develop"
                 }
             }
         },
@@ -99,7 +100,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/unittest.git",
-                    "reference": "3.3/master"
+                    "reference": "3.3/develop"
                 }
             }
         },
@@ -111,7 +112,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/minion.git",
-                    "reference": "3.3/master"
+                    "reference": "3.3/develop"
                 }
             }
         },
@@ -183,7 +184,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/image.git",
-                    "reference": "3.3/master"
+                    "reference": "3.3/develop"
                 }
             }
         },
@@ -201,4 +202,3 @@
         }
     ]
 }
-

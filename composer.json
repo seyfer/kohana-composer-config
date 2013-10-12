@@ -1,33 +1,33 @@
 {
     "require": {
         "php": ">=5.3.0",
-        "phpunit/phpunit": "3.7.24",
+        "phpunit/phpunit": "3.7.*",
         "phing/phing": "dev-master",
-        "kohana/system": "3.2",
-        "kohana/modules/userguide": "3.2",
-        "kohana/modules/auth": "3.2",
-        "kohana/modules/database": "3.2",
-        "kohana/modules/orm": "3.2",
-        "kohana/modules/cache": "3.2",
-        "kohana/modules/unittest": "3.2",
-        "kohana/modules/minion": "3.2",
-        "kohana/modules/minion-log": "3.2",
-        "kohana/modules/pagination": "3.2",
-        "kohana/modules/smarty": "3.2",
-        "kohana/modules/mpdf": "3.2",
-        "kohana/modules/memcached": "3.2",
-        "kohana/modules/orm-mptt": "3.2"
+        "kohana/system": "3.3",
+        "kohana/modules/userguide": "3.3",
+        "kohana/modules/auth": "3.3",
+        "kohana/modules/database": "3.3",
+        "kohana/modules/orm": "3.3",
+        "kohana/modules/cache": "3.3",
+        "kohana/modules/unittest": "3.3",
+        "kohana/modules/minion": "3.3",
+        "kohana/modules/minion-log": "3.3",
+        "kohana/modules/pagination": "3.3",
+        "kohana/modules/smarty": "3.3",
+        "kohana/modules/mpdf": "3.3",
+        "kohana/modules/memcached": "3.3",
+        "kohana/modules/orm-mptt": "3.3"
     },
     "repositories": [
         {
             "type": "package",
             "package": {
                 "name": "kohana/system",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/core.git",
-                    "reference": "3.2/master"
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -35,11 +35,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/userguide",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/userguide.git",
-                    "reference": "3.2/master"
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -47,11 +47,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/auth",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/auth.git",
-                    "reference": "3.2/master"
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -59,11 +59,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/database",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/database.git",
-                    "reference": "3.2/master"
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -71,11 +71,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/orm",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/orm.git",
-                    "reference": "3.2/master"
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -83,11 +83,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/cache",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/cache.git",
-                    "reference": "3.2/master"
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -95,11 +95,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/unittest",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/unittest.git",
-                    "reference": "3.2/master"
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -107,11 +107,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/minion",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/seyfer/minion.git",
-                    "reference": "3.2/master"
+                    "url": "https://github.com/kohana/minion.git",
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -119,11 +119,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/minion-log",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/seyfer/kohana-minion-log.git",
-                    "reference": "3.2/master"
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -131,11 +131,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/pagination",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/seyfer/kohana-pagination.git",
-                    "reference": "3.2/develop"
+                    "url": "https://github.com/shadowhand/pagination.git",
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -143,7 +143,7 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/smarty",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/seyfer/Kohana_Smarty3.git",
@@ -155,11 +155,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/mpdf",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/seyfer/kohana-mpdf.git",
-                    "reference": "3.2/master"
+                    "reference": "3.3/develop"
                 }
             }
         },
@@ -167,11 +167,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/memcached",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/gimpe/kohana-memcached.git",
-                    "reference": "3.2"
+                    "reference": "3.3"
                 }
             }
         },
@@ -179,11 +179,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/image",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/kohana/image.git",
-                    "reference": "3.2/master"
+                    "reference": "3.3/master"
                 }
             }
         },
@@ -191,11 +191,11 @@
             "type": "package",
             "package": {
                 "name": "kohana/modules/orm-mptt",
-                "version": "3.2",
+                "version": "3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/flody/orm-mptt.git",
-                    "reference": "KO3.2/master"
+                    "reference": "KO3.3/master"
                 }
             }
         }

@@ -3,7 +3,7 @@ kohana-composer-config
 
 Just composer configs for different Kohana versions
 
-Composer config for Kohana Version 3.2
+Composer config for Kohana Version 3.3
 
 Usage
 ---
@@ -22,5 +22,5 @@ http://getcomposer.org/
 
 And execute in project root folder
 
-	composer install 
-	
+	composer install
+
